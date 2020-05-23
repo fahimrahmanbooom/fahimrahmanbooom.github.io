@@ -6,8 +6,7 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
+   g. Achievements Section
    h. Contact Section
    i. Footer
 
@@ -28,7 +27,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -202,8 +201,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 180px;
-   height: 180px;
+   width: 160px;
+   height: 160px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -320,85 +319,88 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
+.ios {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: ios 2s ease;
+  	-webkit-animation: ios 2s ease;
 }
-.html5 {
+.arduino {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: arduino 2s ease;
+  	-webkit-animation: arduino 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.web {
+  	width: 20%;
+  	-moz-animation: web 2s ease;
+  	-webkit-animation: web 2s ease;
+}
+.cyber {
+  	width: 40%;
+  	-moz-animation: cyber 2s ease;
+  	-webkit-animation: cyber 2s ease;
+}
+.database {
+  	width: 30%;
+  	-moz-animation: database 2s ease;
+  	-webkit-animation: database 2s ease;
+}
+.android {
+  	width: 10%;
+  	-moz-animation: android 2s ease;
+  	-webkit-animation: android 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
+@-moz-keyframes ios {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes arduino {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes web {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 20%;  }
+}
+@-moz-keyframes cyber {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-moz-keyframes database {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+@-moz-keyframes android {
+  0%   { width: 0px;  }
+  100% { width: 10%;  }
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
+
+
+
+@-webkit-keyframes ios {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes arduino {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes web {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 20%;  }
+}
+@-webkit-keyframes cyber {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-webkit-keyframes database {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+@-webkit-keyframes android {
+  0%   { width: 0px;  }
+  100% { width: 10%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -416,7 +418,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #EE5A24;
+   color: #ff4757;
 }
 
 /* Portfolio Content */
@@ -490,7 +492,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
-   color: #c6c7c7;
+   color: #fff;
    margin-bottom: 0;
 }
 
@@ -521,12 +523,12 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: #000000;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   color: #000000;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
@@ -547,7 +549,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #EE5A24; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -572,70 +574,14 @@ ul#nav li.current a { color: #F06000; }
    opacity: 0;
 }
 
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-
-
-#call-to-action {
-   background: #212121;
-   padding-top: 66px;
-   padding-bottom: 48px;
-}
-#call-to-action h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#call-to-action h1 span { display: none; }
-#call-to-action .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0ac";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
-
-#call-to-action .action {
-   margin-top: 12px;
-}
-#call-to-action h2 {
-   font: 28px/36px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#call-to-action h2 a {
-   color: inherit;
-}
-#call-to-action p {
-   color: #636363;
-   font-size: 17px;
-}
-
-#call-to-action .button:hover,
-#call-to-action .button:active {
-   background: #FFFFFF;
-   color: #0D0D0D;
-}
-
-#call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
-	color: #D8D8D8;
-}
-
-
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. Achievements
 /* ------------------------------------------------------------------ */
 
-#testimonials {
-   background: #2c2c54 url(../images/testimonials-bg.jpg) no-repeat center center;
+#achievements {
+
+   background: #2c2c54;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -645,19 +591,19 @@ ul#nav li.current a { color: #F06000; }
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#achievements .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#achievements h1 {
    font: 18px/24px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#achievements h1 span { display: none; }
+#achievements .header-col { padding-top: 9px; }
+#achievements .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -669,30 +615,30 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
+#achievements blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
+#achievements blockquote:before { content: none; }
+#achievements blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#testimonials blockquote cite {
+#achievements blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#achievements blockquote cite:before { content: "\2014 \0020"; }
+#achievements blockquote cite a,
+#achievements blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -787,12 +733,12 @@ ul#nav li.current a { color: #F06000; }
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #1B9CFC;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+/* #contact a, #contact a:visited  { color: #11ABB0; }
+#contact a:hover, #contact a:focus { color: #fff; } */
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -852,7 +798,7 @@ ul#nav li.current a { color: #F06000; }
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #EE5A24;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -896,26 +842,6 @@ ul#nav li.current a { color: #F06000; }
    top: 17px;
 }
 
-
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
-
-
 /* ------------------------------------------------------------------ */
 /* i. Footer
 /* ------------------------------------------------------------------ */
@@ -956,21 +882,6 @@ footer .copyright  li:first-child:before {
     display: none;
 }
 
-/* social links */
-footer .social-links {
-   margin: 18px 0 30px 0;
-   padding: 0;
-   font-size: 30px;
-}
-footer .social-links li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    margin-left: 42px;
-    color: #F06000;
-}
-
-footer .social-links li:first-child { margin-left: 0; }
 
 /* Go To Top Button */
 #go-top {
